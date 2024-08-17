@@ -19,7 +19,7 @@ export function renderImages(images, gallery) {
       alt="${image.tags}"
     />
   </a>
-  <ul class="gallery-item-text">
+    <ul class="gallery-item-text">
       <li class="gallery-item-text-container">
         <p class="gallery-item-text-header">Likes</p>
         <p class="gallery-item-text-value">${image.likes}</p>
@@ -40,7 +40,7 @@ export function renderImages(images, gallery) {
     </li>`;
     })
     .join('');
-  gallery.insertAdjacentHTML('afterbegin', markup);
+  gallery.insertAdjacentHTML('beforeend', markup);
 
   simpleGallery.refresh();
 }

@@ -30,27 +30,3 @@ form > input:active {
   color: #2e2f42;
   outline: none;
 }
-
-form button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-
-  border-radius: 8px;
-  padding: 8px 16px;
-  max-width: 91px;
-  background: #4e75ff;
-  border: none;
-
-  font-size: inherit;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #fff;
-}
-
-form button:hover,
-form button:focus {
-  background: #6c8cff;
-}
